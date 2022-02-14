@@ -13,12 +13,12 @@ const Counter=()=>{
             <button style={{width:"40px",height:"40px",fontSize:"30px"}} onClick={()=>dispatch(incCount())}>-</button>
             <button   onClick={() => dispatch(loadUser())}>Add async</button>
             <button
-                onClick={() => dispatch(incrementAsync(10))}
+                onClick={() => dispatch(incrementAsync(546454))}
             >
                 createAsyncThunk
             </button>
             <button
-                onClick={() => dispatch(incrementAsync2(10))}
+                onClick={() => dispatch(incrementAsync2())}
             >
                 createAsyncThunk2
             </button>   </div>
